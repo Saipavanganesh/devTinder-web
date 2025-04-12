@@ -27,11 +27,9 @@ const Body = () => {
             if (err.status === 401) {
                 Navigate("/login");
             }
-            console.error(err);
         }
     }
     useEffect(() => {
-
         fetchStore()
     }, [])
     return (
