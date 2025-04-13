@@ -1,7 +1,7 @@
 import React from 'react'
 
 const UserFeed = ({user}) => {
-    const {firstName, lastName, photoUrl, age, gender, about, skills} = user
+    const {firstName, lastName, photoUrl, age, gender, about} = user
     return (
         <div className="card bg-base-300 w-96 shadow-sm">
             <figure>
